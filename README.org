@@ -6,3 +6,20 @@ Two functions are provided:
 
 - `emacs-badge-update(label)` will set the label (string) to as the badge;
 - `emacs-badge-current()` returns current badge.
+
+The demo
+
+[[./demo/demo.gif]]
+
+
+** Build
+1. clone the repo;
+2. run make; (You need MacOS and clang)
+3. load the package.
+
+** straight
+
+#+BEGIN_SRC emacs-lisp
+  (use-package emacs-badge
+    :straight (:type git :host github :repo "mkvoya/emacs-badge" :files ("*")))
+#+END_SRC
