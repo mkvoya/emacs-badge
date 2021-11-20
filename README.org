@@ -1,0 +1,8 @@
+* emacs-badge
+
+A package that enables lisp-code to update Emacs Icon's badge on MacOS.
+
+Two functions are provided:
+
+- `emacs-badge-update(label)` will set the label (string) to as the badge;
+- `emacs-badge-current()` returns current badge.

@@ -1,5 +1,7 @@
 # Compiled
 *.elc
+*.so
+*.so.dSYM
 
 # Packaging
 .cask
